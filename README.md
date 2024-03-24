@@ -18,6 +18,8 @@ This simple calculator application is built using Python's Tkinter library, prov
 
 🔹 Easy-to-use graphical interface.
 
+![7812507](https://github.com/FizzaNawaz-167/Calculator_Tkinter_Python/assets/163080358/d5973b31-9afa-41b9-b908-d10048834788)
+
 
 # Requirements:
 
