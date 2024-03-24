@@ -6,10 +6,15 @@ This simple calculator application is built using Python's Tkinter library, prov
 
 Features:
 Addition, subtraction, multiplication, and division operations.
+
 Clear button to reset the calculator.
+
 Easy-to-use graphical interface.
 
+
 Requirements:
+
 Python
+
 Tkinter library
 
