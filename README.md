@@ -7,8 +7,11 @@ This simple calculator application is built using Python's Tkinter library, prov
 # Features:
 
 🔹 Addition
+
 🔹 Subtraction
+
 🔹 Multiplication
+
 🔹 Division
 
 🔹 Clear button to reset the calculator.
