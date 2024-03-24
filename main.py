@@ -38,7 +38,7 @@ def remove_d():
         t2.delete("1.0", END)
         t1.insert("1.0", cur[:-1])       
 
-def operator(opr):
+def Operator(opr):
     global first_no
     global operator
     operator = opr
@@ -88,13 +88,13 @@ button_0 = Button(root, image=imglst[9] , bg="white", borderwidth=0, width=70, h
 
 button_D = Button(root, image=imglst[11], bg="white", borderwidth=0, width=70, height=60, command=remove_d)
 button_dot = Button(root, image=imglst[18], bg="white", borderwidth=0, width=70, height=60, command=onClick)
-button_add = Button(root, image=imglst[14], bg="white", borderwidth=0, width=70, height=60, command=lambda: operator('+'))
-button_moud = Button(root, image=imglst[17], bg="white", borderwidth=0, width=70, height=60, command=lambda: operator('%'))
+button_add = Button(root, image=imglst[14], bg="white", borderwidth=0, width=70, height=60, command=lambda: Operator('+'))
+button_moud = Button(root, image=imglst[17], bg="white", borderwidth=0, width=70, height=60, command=lambda: Operator('%'))
 button_clear = Button(root, image=imglst[10], bg="white", borderwidth=0, width=70, height=60, command=clear)
 button_equal = Button(root, image=imglst[16], bg="white", borderwidth=0, width=70, height=60, command=equal)
-button_divide = Button(root, image=imglst[12], bg="white", borderwidth=0, width=70, height=60, command=lambda: operator('/'))
-button_multipy = Button(root, image=imglst[13], bg="white", borderwidth=0, width=70, height=60, command=lambda: operator('*'))
-button_subtract = Button(root, image=imglst[15], bg="white", borderwidth=0, width=70, height=60, command=lambda: operator('-'))
+button_divide = Button(root, image=imglst[12], bg="white", borderwidth=0, width=70, height=60, command=lambda: Operator('/'))
+button_multipy = Button(root, image=imglst[13], bg="white", borderwidth=0, width=70, height=60, command=lambda: Operator('*'))
+button_subtract = Button(root, image=imglst[15], bg="white", borderwidth=0, width=70, height=60, command=lambda: Operator('-'))
 
 button_clear.grid(row=2, column=0)
 button_divide.grid(row=2, column=1)
